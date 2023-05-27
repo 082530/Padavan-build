@@ -86,7 +86,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_TTYD=y" >> .config #ttyd
         #echo "CONFIG_FIRMWARE_INCLUDE_NFSD=n" >> .config #iperf3
         #echo "CONFIG_FIRMWARE_INCLUDE_NFSC=n" >> .config #socat
-        echo "CONFIG_FIRMWARE_INCLUDE_SQM=y" >> .config #SQM QOS
+        echo "CONFIG_FIRMWARE_INCLUDE_SQM=n" >> .config #SQM QOS
         echo "CONFIG_FIRMWARE_INCLUDE_FRPC=y" >> .config #内网穿透FRPC
         echo "CONFIG_FIRMWARE_INCLUDE_FRPS=n" >> .config #内网穿透FRPS
         #########################################################################################
