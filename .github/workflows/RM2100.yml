@@ -2,6 +2,7 @@
 name: Build Padavan RM2100
 
 on: 
+workflow_dispatch:
   release:
     types: [published]
   push:
